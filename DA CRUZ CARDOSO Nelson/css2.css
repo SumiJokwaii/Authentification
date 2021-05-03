@@ -1,0 +1,45 @@
+body{
+    background: rgb(204, 138, 16);
+    background-image:url(plage.png);
+    background-repeat:no-repeat;
+}
+
+form {
+    width:100%;
+    padding: 30px;
+    border: 2px solid black;
+}
+
+#container{
+    width:400px;
+    margin:0 auto;
+    margin-top:10%;
+}
+
+#container h1{
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    font-size: 34px;
+    font-style: italic;
+    color: green;
+}
+
+#container h2{
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    font-size: 20px;
+    color: green;
+}
+
+input[type=button] {
+    background-color: forestgreen;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
